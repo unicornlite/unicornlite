@@ -41,19 +41,14 @@
   ### ▤ THE VOID STATS ▤
 
   <p>
-    <img src="https://github-readme-stats.vercel.app/api?username=unicornlite&show_icons=true&theme=transparent&bg_color=000000&title_color=ffffff&text_color=888888&icon_color=ffffff&border_color=333333&hide_border=false" alt="GitHub Stats" />
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=unicornlite&layout=compact&theme=transparent&bg_color=000000&title_color=ffffff&text_color=888888&icon_color=ffffff&border_color=333333&hide_border=false" alt="Top Languages" />
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=unicornlite&theme=dark&background=000000&stroke=ffffff&ring=888888&fire=ffffff&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=888888&sideLabels=888888&dates=888888&hide_border=true" alt="GitHub Streak" />
   </p>
 
   <br />
   
   ### ▤ CONTRIBUTIONS ▤
 
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/unicornlite/unicornlite/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/unicornlite/unicornlite/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/unicornlite/unicornlite/output/github-contribution-grid-snake-dark.svg">
-  </picture>
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/unicornlite/unicornlite/output/github-contribution-grid-snake.svg" />
 
   <br /><br />
 
