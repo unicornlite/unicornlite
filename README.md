@@ -5,7 +5,7 @@
   <br />
 
   ```cpp
-  > int main() { return void; } // Just a coder in the dark...
+  > HelloWorld("print")
   ```
 
   <br />
