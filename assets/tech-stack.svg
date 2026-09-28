@@ -92,7 +92,7 @@
   <text x="400" y="40" class="label">[ FRONTEND ]</text>
   <line x1="200" y1="50" x2="600" y2="50" class="separator" />
 
-  <g transform="translate(108, 70)">
+  <g transform="translate(134, 70)">
     <rect x="0" y="0" width="72" height="72" class="icon-box b1" rx="3" />
     <g transform="translate(36, 28)">
       <rect x="-12" y="-8" width="24" height="4" class="pixel" />
@@ -105,7 +105,7 @@
     <text x="36" y="62" class="icon-text t1">HTML5</text>
   </g>
 
-  <g transform="translate(224, 70)">
+  <g transform="translate(226, 70)">
     <rect x="0" y="0" width="72" height="72" class="icon-box b2" rx="3" />
     <g transform="translate(36, 28)">
       <rect x="-8" y="-12" width="16" height="4" class="pixel" />
@@ -117,7 +117,7 @@
     <text x="36" y="62" class="icon-text t2">CSS3</text>
   </g>
 
-  <g transform="translate(340, 70)">
+  <g transform="translate(318, 70)">
     <rect x="0" y="0" width="72" height="72" class="icon-box b3" rx="3" />
     <g transform="translate(36, 28)">
       <rect x="-4" y="-12" width="8" height="4" class="pixel" />
@@ -132,7 +132,7 @@
     <text x="36" y="62" class="icon-text t3">JS</text>
   </g>
 
-  <g transform="translate(456, 70)">
+  <g transform="translate(410, 70)">
     <rect x="0" y="0" width="72" height="72" class="icon-box b4" rx="3" />
     <g transform="translate(36, 26)">
       <rect x="-4" y="-10" width="8" height="4" class="pixel" />
@@ -146,7 +146,7 @@
     <text x="36" y="62" class="icon-text t4">REACT</text>
   </g>
 
-  <g transform="translate(572, 70)">
+  <g transform="translate(502, 70)">
     <rect x="0" y="0" width="72" height="72" class="icon-box b5" rx="3" />
     <g transform="translate(36, 26)">
       <rect x="-12" y="-8" width="24" height="4" class="pixel" />
@@ -158,7 +158,7 @@
     <text x="36" y="62" class="icon-text t5">TAILWIND</text>
   </g>
 
-  <g transform="translate(688, 70)">
+  <g transform="translate(594, 70)">
     <rect x="0" y="0" width="72" height="72" class="icon-box b6" rx="3" />
     <g transform="translate(36, 26)">
       <rect x="-4" y="-10" width="8" height="4" class="pixel" />
@@ -175,7 +175,7 @@
   <text x="400" y="190" class="label">[ BACKEND ]</text>
   <line x1="200" y1="200" x2="600" y2="200" class="separator" />
 
-  <g transform="translate(166, 220)">
+  <g transform="translate(226, 220)">
     <rect x="0" y="0" width="72" height="72" class="icon-box b7" rx="3" />
     <g transform="translate(36, 26)">
       <rect x="-12" y="-8" width="8" height="4" class="pixel" />
@@ -190,7 +190,7 @@
     <text x="36" y="62" class="icon-text t7">PHP</text>
   </g>
 
-  <g transform="translate(282, 220)">
+  <g transform="translate(318, 220)">
     <rect x="0" y="0" width="72" height="72" class="icon-box b8" rx="3" />
     <g transform="translate(36, 26)">
       <rect x="-12" y="-8" width="8" height="20" class="pixel" />
@@ -203,7 +203,7 @@
     <text x="36" y="62" class="icon-text t8">LARAVEL</text>
   </g>
 
-  <g transform="translate(398, 220)">
+  <g transform="translate(410, 220)">
     <rect x="0" y="0" width="72" height="72" class="icon-box b9" rx="3" />
     <g transform="translate(36, 26)">
       <rect x="-8" y="-10" width="16" height="4" class="pixel" />
@@ -215,7 +215,7 @@
     <text x="36" y="62" class="icon-text t9">NODE.JS</text>
   </g>
 
-  <g transform="translate(514, 220)">
+  <g transform="translate(502, 220)">
     <rect x="0" y="0" width="72" height="72" class="icon-box b10" rx="3" />
     <g transform="translate(36, 26)">
       <rect x="-12" y="-8" width="24" height="4" class="pixel" />
@@ -230,7 +230,7 @@
   <text x="400" y="340" class="label">[ TOOLS ]</text>
   <line x1="200" y1="350" x2="600" y2="350" class="separator" />
 
-  <g transform="translate(282, 370)">
+  <g transform="translate(318, 370)">
     <rect x="0" y="0" width="72" height="72" class="icon-box b11" rx="3" />
     <g transform="translate(36, 26)">
       <rect x="-8" y="-8" width="16" height="4" class="pixel" />
@@ -243,7 +243,7 @@
     <text x="36" y="62" class="icon-text t11">MYSQL</text>
   </g>
 
-  <g transform="translate(398, 370)">
+  <g transform="translate(410, 370)">
     <rect x="0" y="0" width="72" height="72" class="icon-box b12" rx="3" />
     <g transform="translate(36, 26)">
       <rect x="-8" y="-10" width="4" height="4" class="pixel" />
