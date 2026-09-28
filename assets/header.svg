@@ -110,6 +110,6 @@
   
   <!-- Terminal subtext -->
   <text x="400" y="200" class="subtext">
-    &gt; ERROR 404: HUMANITY NOT FOUND <tspan class="cursor">_</tspan>
+    &gt; eat, sleep, <tspan text-decoration="line-through">code</tspan>, repeat <tspan class="cursor">_</tspan>
   </text>
 </svg>
