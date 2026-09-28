@@ -5,10 +5,10 @@
   <br />
 
   ```cpp
-  > int main() { return void; } // Just a coder in the dark...
+  > int main() { return 0; }
   ```
 
-  <br />a
+  <br />
 
   ### ▤ THE ARSENAL ▤
 
@@ -48,7 +48,10 @@
   
   ### ▤ CONTRIBUTIONS ▤
 
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/unicornlite/unicornlite/output/github-contribution-grid-snake.svg" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/unicornlite/unicornlite/output/github-contribution-grid-snake-dark.svg" />
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/unicornlite/unicornlite/output/github-contribution-grid-snake.svg" />
+  </picture>
 
   <br /><br />
 
