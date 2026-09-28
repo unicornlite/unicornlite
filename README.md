@@ -4,8 +4,8 @@
 
   <br />
 
-  ```cpp
-  > int main() { return 0; }
+  ```
+  > HelloWorld("Print")
   ```
 
   <br />
