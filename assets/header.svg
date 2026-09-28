@@ -1,0 +1,115 @@
+<svg width="800" height="250" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .bg { fill: #000000; }
+    
+    /* Text styles */
+    .text { 
+      font-family: 'Courier New', Courier, monospace; 
+      font-size: 50px; 
+      font-weight: bold; 
+      fill: #FFFFFF; 
+      text-anchor: middle;
+      letter-spacing: 10px;
+    }
+    .subtext {
+      font-family: 'Courier New', monospace; 
+      font-size: 14px; 
+      fill: #888888; 
+      text-anchor: middle; 
+      letter-spacing: 2px;
+    }
+
+    /* Glitch Animation */
+    .glitch1 {
+      fill: #555555;
+      animation: glitch-anim-1 2s infinite linear alternate-reverse;
+    }
+    .glitch2 {
+      fill: #888888;
+      animation: glitch-anim-2 2.5s infinite linear alternate-reverse;
+    }
+    @keyframes glitch-anim-1 {
+      0% { transform: translate(0); opacity: 1; }
+      20% { transform: translate(-3px, 2px); opacity: 0.8; }
+      40% { transform: translate(3px, -2px); opacity: 1; }
+      60% { transform: translate(-2px, -3px); opacity: 0.9; }
+      80% { transform: translate(2px, 3px); opacity: 0.8; }
+      100% { transform: translate(0); opacity: 1; }
+    }
+    @keyframes glitch-anim-2 {
+      0% { transform: translate(0); opacity: 1; }
+      15% { transform: translate(2px, -2px); opacity: 0.7; }
+      35% { transform: translate(-4px, 1px); opacity: 0.9; }
+      65% { transform: translate(1px, 2px); opacity: 0.8; }
+      85% { transform: translate(-2px, -2px); opacity: 1; }
+      100% { transform: translate(0); opacity: 1; }
+    }
+
+    /* Scanline Animation (CRT TV effect) */
+    .scanline {
+      fill: #FFFFFF;
+      opacity: 0.03;
+      animation: scan 4s linear infinite;
+    }
+    @keyframes scan {
+      0% { transform: translateY(-250px); }
+      100% { transform: translateY(250px); }
+    }
+
+    /* Eye Pulse Animation */
+    .eye-glow {
+      fill: #FFFFFF;
+      animation: pulse 1.5s infinite alternate;
+    }
+    @keyframes pulse {
+      0% { opacity: 0.1; }
+      100% { opacity: 1; }
+    }
+
+    /* Blinking Cursor */
+    .cursor {
+      animation: blink 1s step-end infinite;
+    }
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+  </style>
+  
+  <rect width="100%" height="100%" class="bg" />
+  
+  <!-- Animated Scanline for CRT feel -->
+  <rect width="100%" height="20" class="scanline" />
+  <rect width="100%" height="20" class="scanline" y="-125" />
+
+  <!-- Pixel Art Eyes -->
+  <g transform="translate(350, 60)">
+    <!-- Left Eye Box -->
+    <rect x="0" y="0" width="24" height="8" fill="#333333" />
+    <rect x="0" y="-8" width="24" height="8" fill="#111111" />
+    <rect x="0" y="8" width="24" height="8" fill="#111111" />
+    <rect x="-8" y="0" width="8" height="8" fill="#111111" />
+    <rect x="24" y="0" width="8" height="8" fill="#111111" />
+    <!-- Left Pupil (Animated Glow) -->
+    <rect x="8" y="0" width="8" height="8" class="eye-glow" />
+
+    <!-- Right Eye Box -->
+    <rect x="76" y="0" width="24" height="8" fill="#333333" />
+    <rect x="76" y="-8" width="24" height="8" fill="#111111" />
+    <rect x="76" y="8" width="24" height="8" fill="#111111" />
+    <rect x="68" y="0" width="8" height="8" fill="#111111" />
+    <rect x="100" y="0" width="8" height="8" fill="#111111" />
+    <!-- Right Pupil (Animated Glow) -->
+    <rect x="84" y="0" width="8" height="8" class="eye-glow" />
+  </g>
+
+  <!-- Glitch Text Group -->
+  <text x="400" y="160" class="text glitch1">UNICORNLITE</text>
+  <text x="400" y="160" class="text glitch2">UNICORNLITE</text>
+  <text x="400" y="160" class="text">UNICORNLITE</text>
+  
+  <!-- Terminal subtext -->
+  <text x="400" y="200" class="subtext">
+    &gt; ERROR 404: HUMANITY NOT FOUND <tspan class="cursor">_</tspan>
+  </text>
+</svg>
