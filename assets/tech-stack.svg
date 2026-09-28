@@ -1,0 +1,256 @@
+<svg width="800" height="480" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .bg { fill: #000000; }
+    .label {
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 13px;
+      font-weight: bold;
+      fill: #888888;
+      text-anchor: middle;
+      letter-spacing: 3px;
+    }
+    .icon-text {
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 10px;
+      fill: #888888;
+      text-anchor: middle;
+    }
+    .icon-box {
+      fill: none;
+      stroke: #333333;
+      stroke-width: 1;
+    }
+    .icon-box-glow {
+      fill: none;
+      stroke: #555555;
+      stroke-width: 1;
+      animation: box-pulse 3s infinite alternate;
+    }
+    @keyframes box-pulse {
+      0% { stroke: #333333; }
+      50% { stroke: #666666; }
+      100% { stroke: #333333; }
+    }
+    .pixel { fill: #FFFFFF; }
+    .pixel-grey { fill: #888888; }
+    .pixel-dark { fill: #555555; }
+    .scanline {
+      fill: #FFFFFF;
+      opacity: 0.02;
+      animation: scan 5s linear infinite;
+    }
+    @keyframes scan {
+      0% { transform: translateY(-480px); }
+      100% { transform: translateY(480px); }
+    }
+    .fade-in-1 { animation: fade 0.8s ease-out 0.1s both; }
+    .fade-in-2 { animation: fade 0.8s ease-out 0.2s both; }
+    .fade-in-3 { animation: fade 0.8s ease-out 0.3s both; }
+    .fade-in-4 { animation: fade 0.8s ease-out 0.4s both; }
+    .fade-in-5 { animation: fade 0.8s ease-out 0.5s both; }
+    .fade-in-6 { animation: fade 0.8s ease-out 0.6s both; }
+    .fade-in-7 { animation: fade 0.8s ease-out 0.7s both; }
+    .fade-in-8 { animation: fade 0.8s ease-out 0.8s both; }
+    .fade-in-9 { animation: fade 0.8s ease-out 0.9s both; }
+    .fade-in-10 { animation: fade 0.8s ease-out 1.0s both; }
+    .fade-in-11 { animation: fade 0.8s ease-out 1.1s both; }
+    .fade-in-12 { animation: fade 0.8s ease-out 1.2s both; }
+    @keyframes fade {
+      0% { opacity: 0; transform: translateY(8px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+    .glitch-line {
+      fill: #FFFFFF;
+      opacity: 0;
+      animation: glitch-flash 8s infinite;
+    }
+    @keyframes glitch-flash {
+      0%, 94%, 100% { opacity: 0; }
+      95% { opacity: 0.08; transform: translateX(-200px); }
+      96% { opacity: 0; }
+      97% { opacity: 0.05; transform: translateX(100px); }
+      98% { opacity: 0; }
+    }
+    .separator {
+      stroke: #222222;
+      stroke-width: 1;
+      stroke-dasharray: 4 4;
+    }
+  </style>
+
+  <rect width="100%" height="100%" class="bg" />
+  <rect width="100%" height="12" class="scanline" />
+  <rect width="100%" height="12" class="scanline" y="-240" />
+  <rect width="100%" height="3" y="180" class="glitch-line" />
+  <rect width="100%" height="2" y="350" class="glitch-line" />
+
+  <text x="400" y="40" class="label">[ FRONTEND ]</text>
+  <line x1="200" y1="50" x2="600" y2="50" class="separator" />
+
+  <g class="fade-in-1" transform="translate(108, 70)">
+    <rect x="0" y="0" width="72" height="72" class="icon-box-glow" rx="3" />
+    <g transform="translate(36, 28)">
+      <rect x="-12" y="-8" width="24" height="4" class="pixel" />
+      <rect x="-16" y="-4" width="8" height="4" class="pixel" />
+      <rect x="8" y="-4" width="8" height="4" class="pixel" />
+      <rect x="-16" y="0" width="32" height="4" class="pixel-grey" />
+      <rect x="-12" y="4" width="8" height="4" class="pixel-dark" />
+      <rect x="4" y="4" width="8" height="4" class="pixel-dark" />
+    </g>
+    <text x="36" y="62" class="icon-text">HTML5</text>
+  </g>
+
+  <g class="fade-in-2" transform="translate(224, 70)">
+    <rect x="0" y="0" width="72" height="72" class="icon-box-glow" rx="3" />
+    <g transform="translate(36, 28)">
+      <rect x="-8" y="-12" width="16" height="4" class="pixel" />
+      <rect x="-12" y="-8" width="4" height="16" class="pixel" />
+      <rect x="8" y="-8" width="4" height="8" class="pixel-grey" />
+      <rect x="-8" y="0" width="12" height="4" class="pixel-grey" />
+      <rect x="-12" y="8" width="24" height="4" class="pixel" />
+    </g>
+    <text x="36" y="62" class="icon-text">CSS3</text>
+  </g>
+
+  <g class="fade-in-3" transform="translate(340, 70)">
+    <rect x="0" y="0" width="72" height="72" class="icon-box-glow" rx="3" />
+    <g transform="translate(36, 28)">
+      <rect x="-4" y="-12" width="8" height="4" class="pixel" />
+      <rect x="-4" y="-8" width="8" height="4" class="pixel" />
+      <rect x="-12" y="-4" width="8" height="4" class="pixel-grey" />
+      <rect x="-4" y="-4" width="8" height="4" class="pixel" />
+      <rect x="-12" y="0" width="8" height="4" class="pixel-grey" />
+      <rect x="-4" y="0" width="8" height="4" class="pixel" />
+      <rect x="-4" y="4" width="8" height="4" class="pixel" />
+      <rect x="-4" y="8" width="8" height="4" class="pixel-dark" />
+    </g>
+    <text x="36" y="62" class="icon-text">JS</text>
+  </g>
+
+  <g class="fade-in-4" transform="translate(456, 70)">
+    <rect x="0" y="0" width="72" height="72" class="icon-box-glow" rx="3" />
+    <g transform="translate(36, 26)">
+      <rect x="-4" y="-10" width="8" height="4" class="pixel" />
+      <rect x="-12" y="-6" width="8" height="4" class="pixel-grey" />
+      <rect x="4" y="-6" width="8" height="4" class="pixel-grey" />
+      <rect x="-16" y="-2" width="8" height="4" class="pixel" />
+      <rect x="8" y="-2" width="8" height="4" class="pixel" />
+      <rect x="-16" y="2" width="32" height="4" class="pixel-grey" />
+      <rect x="-8" y="6" width="16" height="4" class="pixel-dark" />
+    </g>
+    <text x="36" y="62" class="icon-text">REACT</text>
+  </g>
+
+  <g class="fade-in-5" transform="translate(572, 70)">
+    <rect x="0" y="0" width="72" height="72" class="icon-box-glow" rx="3" />
+    <g transform="translate(36, 26)">
+      <rect x="-12" y="-8" width="24" height="4" class="pixel" />
+      <rect x="-4" y="-4" width="8" height="4" class="pixel" />
+      <rect x="-4" y="0" width="8" height="4" class="pixel-grey" />
+      <rect x="-4" y="4" width="8" height="4" class="pixel-grey" />
+      <rect x="-4" y="8" width="8" height="4" class="pixel-dark" />
+    </g>
+    <text x="36" y="62" class="icon-text">TAILWIND</text>
+  </g>
+
+  <g class="fade-in-6" transform="translate(688, 70)">
+    <rect x="0" y="0" width="72" height="72" class="icon-box-glow" rx="3" />
+    <g transform="translate(36, 26)">
+      <rect x="-4" y="-10" width="8" height="4" class="pixel" />
+      <rect x="-12" y="-6" width="8" height="4" class="pixel-grey" />
+      <rect x="4" y="-6" width="8" height="4" class="pixel-grey" />
+      <rect x="-16" y="-2" width="8" height="4" class="pixel" />
+      <rect x="8" y="-2" width="8" height="4" class="pixel" />
+      <rect x="-12" y="2" width="24" height="4" class="pixel-dark" />
+      <rect x="-8" y="6" width="16" height="4" class="pixel-dark" />
+    </g>
+    <text x="36" y="62" class="icon-text">ASTRO</text>
+  </g>
+
+  <text x="400" y="190" class="label">[ BACKEND ]</text>
+  <line x1="200" y1="200" x2="600" y2="200" class="separator" />
+
+  <g class="fade-in-7" transform="translate(166, 220)">
+    <rect x="0" y="0" width="72" height="72" class="icon-box-glow" rx="3" />
+    <g transform="translate(36, 26)">
+      <rect x="-12" y="-8" width="8" height="4" class="pixel" />
+      <rect x="-4" y="-8" width="8" height="4" class="pixel" />
+      <rect x="-12" y="-4" width="8" height="4" class="pixel" />
+      <rect x="4" y="-4" width="8" height="4" class="pixel-grey" />
+      <rect x="-12" y="0" width="8" height="4" class="pixel" />
+      <rect x="-4" y="0" width="8" height="4" class="pixel-grey" />
+      <rect x="-12" y="4" width="8" height="4" class="pixel" />
+      <rect x="-12" y="8" width="8" height="4" class="pixel-dark" />
+    </g>
+    <text x="36" y="62" class="icon-text">PHP</text>
+  </g>
+
+  <g class="fade-in-8" transform="translate(282, 220)">
+    <rect x="0" y="0" width="72" height="72" class="icon-box-glow" rx="3" />
+    <g transform="translate(36, 26)">
+      <rect x="-12" y="-8" width="8" height="20" class="pixel" />
+      <rect x="-4" y="-8" width="8" height="4" class="pixel-grey" />
+      <rect x="4" y="-4" width="8" height="4" class="pixel-grey" />
+      <rect x="4" y="0" width="8" height="4" class="pixel" />
+      <rect x="-4" y="4" width="8" height="4" class="pixel" />
+      <rect x="-4" y="8" width="8" height="4" class="pixel-dark" />
+    </g>
+    <text x="36" y="62" class="icon-text">LARAVEL</text>
+  </g>
+
+  <g class="fade-in-9" transform="translate(398, 220)">
+    <rect x="0" y="0" width="72" height="72" class="icon-box-glow" rx="3" />
+    <g transform="translate(36, 26)">
+      <rect x="-8" y="-10" width="16" height="4" class="pixel" />
+      <rect x="-12" y="-6" width="24" height="4" class="pixel-grey" />
+      <rect x="-8" y="-2" width="16" height="4" class="pixel" />
+      <rect x="-4" y="2" width="8" height="4" class="pixel-grey" />
+      <rect x="-4" y="6" width="8" height="4" class="pixel-dark" />
+    </g>
+    <text x="36" y="62" class="icon-text">NODE.JS</text>
+  </g>
+
+  <g class="fade-in-10" transform="translate(514, 220)">
+    <rect x="0" y="0" width="72" height="72" class="icon-box-glow" rx="3" />
+    <g transform="translate(36, 26)">
+      <rect x="-12" y="-8" width="24" height="4" class="pixel" />
+      <rect x="-12" y="-4" width="8" height="4" class="pixel" />
+      <rect x="-12" y="0" width="20" height="4" class="pixel-grey" />
+      <rect x="-12" y="4" width="8" height="4" class="pixel-grey" />
+      <rect x="-12" y="8" width="24" height="4" class="pixel-dark" />
+    </g>
+    <text x="36" y="62" class="icon-text">EXPRESS</text>
+  </g>
+
+  <text x="400" y="340" class="label">[ TOOLS ]</text>
+  <line x1="200" y1="350" x2="600" y2="350" class="separator" />
+
+  <g class="fade-in-11" transform="translate(282, 370)">
+    <rect x="0" y="0" width="72" height="72" class="icon-box-glow" rx="3" />
+    <g transform="translate(36, 26)">
+      <rect x="-8" y="-8" width="16" height="4" class="pixel" />
+      <rect x="-12" y="-4" width="8" height="4" class="pixel" />
+      <rect x="-12" y="0" width="24" height="4" class="pixel-grey" />
+      <rect x="-12" y="4" width="8" height="4" class="pixel-grey" />
+      <rect x="4" y="4" width="8" height="4" class="pixel-grey" />
+      <rect x="-4" y="8" width="8" height="4" class="pixel-dark" />
+    </g>
+    <text x="36" y="62" class="icon-text">MYSQL</text>
+  </g>
+
+  <g class="fade-in-12" transform="translate(398, 370)">
+    <rect x="0" y="0" width="72" height="72" class="icon-box-glow" rx="3" />
+    <g transform="translate(36, 26)">
+      <rect x="-8" y="-10" width="4" height="4" class="pixel" />
+      <rect x="-4" y="-10" width="4" height="4" class="pixel-grey" />
+      <rect x="0" y="-10" width="4" height="4" class="pixel" />
+      <rect x="-12" y="-6" width="4" height="4" class="pixel-grey" />
+      <rect x="8" y="-6" width="4" height="4" class="pixel-grey" />
+      <rect x="-12" y="-2" width="24" height="4" class="pixel" />
+      <rect x="-8" y="2" width="4" height="4" class="pixel-grey" />
+      <rect x="4" y="2" width="4" height="4" class="pixel-grey" />
+      <rect x="-4" y="6" width="8" height="4" class="pixel-dark" />
+    </g>
+    <text x="36" y="62" class="icon-text">GIT</text>
+  </g>
+</svg>
