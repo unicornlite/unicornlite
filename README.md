@@ -27,7 +27,10 @@
   
   ### ▤ ASSIMILATION PROGRESS ▤
 
-  <img src="dist/bomberman-graph.svg" alt="Bomberman Graph" width="100%" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/unicornlite/unicornlite/output/bomberman-contribution-graph-dark.svg" />
+    <img alt="bomberman contribution graph" src="https://raw.githubusercontent.com/unicornlite/unicornlite/output/bomberman-contribution-graph.svg" width="100%" />
+  </picture>
 
   <br /><br />
 
