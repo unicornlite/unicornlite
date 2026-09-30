@@ -20,7 +20,7 @@
   ### ▤ ANOMALY LOGS ▤
 
   <p>
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=unicornlite&theme=dark&background=000000&stroke=ffffff&ring=888888&fire=ffffff&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=888888&sideLabels=888888&dates=888888&hide_border=true" alt="GitHub Streak" />
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=unicornlite&theme=dark&background=000000&stroke=ffffff&ring=ffffff&fire=ffffff&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true" alt="GitHub Streak" />
   </p>
   
   <p>

@@ -5,7 +5,7 @@
       font-family: 'Courier New', Courier, monospace;
       font-size: 13px;
       font-weight: bold;
-      fill: #888888;
+      fill: #ffffff;
       text-anchor: middle;
       letter-spacing: 3px;
     }
@@ -50,10 +50,10 @@
     .b12 { animation: box-glow 3s ease-in-out infinite 2.75s; }
     @keyframes box-glow {
       0%, 100% { stroke: #222222; }
-      50% { stroke: #888888; }
+      50% { stroke: #ffffff; }
     }
     .pixel { fill: #FFFFFF; }
-    .pixel-grey { fill: #888888; }
+    .pixel-grey { fill: #ffffff; }
     .pixel-dark { fill: #555555; }
     .scanline {
       fill: #FFFFFF;
