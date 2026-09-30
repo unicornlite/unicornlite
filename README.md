@@ -27,7 +27,7 @@
   
   ### ▤ ASSIMILATION PROGRESS ▤
 
-  <img src="dist/anomaly-graph.svg" alt="Anomaly Radar" width="100%" />
+  <img src="dist/bomberman-graph.svg" alt="Bomberman Graph" width="100%" />
 
   <br /><br />
 
