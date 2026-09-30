@@ -11,13 +11,13 @@
 
   <br />
 
-  ### ▤ SYSTEM FRAGMENTS ▤
+  <img src="assets/h-system.svg" alt="SYSTEM FRAGMENTS" />
 
   <img src="assets/tech-stack.svg" width="100%" alt="Tech Stack" />
 
   <br />
 
-  ### ▤ ANOMALY LOGS ▤
+  <img src="assets/h-anomaly.svg" alt="ANOMALY LOGS" />
 
   <p>
     <img src="https://github-readme-streak-stats.herokuapp.com/?user=unicornlite&theme=dark&background=000000&stroke=ffffff&ring=ffffff&fire=ffffff&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true" alt="GitHub Streak" />
@@ -29,7 +29,7 @@
 
   <br />
   
-  ### ▤ ASSIMILATION PROGRESS ▤
+  <img src="assets/h-assimilation.svg" alt="ASSIMILATION PROGRESS" />
 
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/unicornlite/unicornlite/output/bomberman-contribution-graph-dark.svg" />
@@ -38,7 +38,7 @@
 
   <br /><br />
 
-  ### ▤ SIGNAL INTERCEPT ▤
+  <img src="assets/h-signal.svg" alt="SIGNAL INTERCEPT" />
   
   <p>
     <a href="#"><img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>

@@ -14,7 +14,7 @@
     .subtext {
       font-family: 'Courier New', monospace; 
       font-size: 14px; 
-      fill: #ffffff; 
+      fill: #333333; 
       text-anchor: middle; 
       letter-spacing: 2px;
     }
