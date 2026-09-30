@@ -24,7 +24,7 @@
   </p>
   
   <p>
-    <img src="https://komarev.com/ghpvc/?username=unicornlite&label=OBSERVERS&color=000000&label_color=000000&style=for-the-badge" alt="Profile Views" />
+    <img src="https://komarev.com/ghpvc/?username=unicornlite&label=OBSERVERS&color=000000&label_color=000000&style=flat-square" alt="Profile Views" />
   </p>
 
   <br />
