@@ -4,19 +4,20 @@
 
   <br />
 
-  ```
-  > HelloWorld("Print")
+  ```bash
+  > tail -f /var/log/syslog | grep "anomaly"
+  > [WARN] Unidentified entity watching...
   ```
 
   <br />
 
-  ### ▤ THE ARSENAL ▤
+  ### ▤ SYSTEM FRAGMENTS ▤
 
   <img src="assets/tech-stack.svg" width="100%" alt="Tech Stack" />
 
   <br />
 
-  ### ▤ THE VOID STATS ▤
+  ### ▤ ANOMALY LOGS ▤
 
   <p>
     <img src="https://github-readme-streak-stats.herokuapp.com/?user=unicornlite&theme=dark&background=000000&stroke=ffffff&ring=888888&fire=ffffff&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=888888&sideLabels=888888&dates=888888&hide_border=true" alt="GitHub Streak" />
@@ -24,16 +25,13 @@
 
   <br />
   
-  ### ▤ CONTRIBUTIONS ▤
+  ### ▤ ASSIMILATION PROGRESS ▤
 
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/unicornlite/unicornlite/output/github-contribution-grid-snake-dark.svg" />
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/unicornlite/unicornlite/output/github-contribution-grid-snake.svg" />
-  </picture>
+  <img src="profile-3d-contrib/profile-monochrome.svg" alt="3D Contribution Graph" width="100%" />
 
   <br /><br />
 
-  ### ▤ ESTABLISH CONNECTION ▤
+  ### ▤ SIGNAL INTERCEPT ▤
   
   <p>
     <a href="#"><img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
