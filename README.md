@@ -22,6 +22,10 @@
   <p>
     <img src="https://github-readme-streak-stats.herokuapp.com/?user=unicornlite&theme=dark&background=000000&stroke=ffffff&ring=888888&fire=ffffff&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=888888&sideLabels=888888&dates=888888&hide_border=true" alt="GitHub Streak" />
   </p>
+  
+  <p>
+    <img src="https://komarev.com/ghpvc/?username=unicornlite&label=OBSERVERS&color=ff0000&label_color=000000&style=for-the-badge" alt="Profile Views" />
+  </p>
 
   <br />
   
