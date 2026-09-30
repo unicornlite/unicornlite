@@ -27,7 +27,7 @@
   
   ### ▤ ASSIMILATION PROGRESS ▤
 
-  <img src="profile-3d-contrib/profile-monochrome.svg" alt="3D Contribution Graph" width="100%" />
+  <img src="dist/anomaly-graph.svg" alt="Anomaly Radar" width="100%" />
 
   <br /><br />
 
