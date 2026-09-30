@@ -5,8 +5,7 @@
   <br />
 
   ```bash
-  > tail -f /var/log/syslog | grep "anomaly"
-  > [WARN] Unidentified entity watching...
+  > HelloWorld("print");
   ```
 
   <br />
